@@ -61,6 +61,12 @@ app.get("/api/auth/google/callback", async (req, res) => {
 });
 
 
+app.get("/api/auth/github", (req, res) => {
+
+});
+
+
+
 app.listen(port, () => {
     console.log(`Server running on PORT ${port}`);
 });
